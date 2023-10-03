@@ -1,0 +1,22 @@
+algo ex17
+Algorithme imposable 
+Variables age: entiera
+sexe: chainedecaractères
+
+Début
+
+Ecrire ("svp done l'âge de l'habitant: ")
+
+Lire (age)
+
+Ecrire ("svp done le sexe de l'habitant: ")
+
+Lire (sexe)
+
+Si (age >= 20 et sexe = "Homme") ou (age >= 18 et age <= 35 et sexe = "Femme")                   alors Ecrire (" L'habitant est imposable ")
+Sinon
+Ecrire (" L'habitant est non imposable ")a
+
+fin Si
+
+Fin
